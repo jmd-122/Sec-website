@@ -383,8 +383,9 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     flex-wrap: wrap;
+    padding-bottom: 1%;
 }
 
 .pot img{
@@ -488,10 +489,11 @@ footer{
 
     /* CONTACT */
     .pot{
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: row;
+        gap: 10px;
+        padding-bottom: 3%;
     }
-
+    
     /* TITLES */
     h2{
         font-size: 35px;
